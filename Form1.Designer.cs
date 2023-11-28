@@ -32,6 +32,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "Form1";
+
+            // Registracija event handlera
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MisDolje);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MisGore);
         }
 
         #endregion
